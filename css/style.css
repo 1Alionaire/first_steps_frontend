@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+
+.header{
+  background: #FA8C16;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.header-wrapper {
+  border: 1px solid #000;
+  max-width: 1200;
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
