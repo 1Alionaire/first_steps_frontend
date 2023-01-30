@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Pikadu</title>
+	<title>Pikadu - Главная</title>
 	<!-- Подключаем normalize -->
 	<link rel="stylesheet" href="css/normalize.css">
 	<!-- Подключаем стили -->
@@ -23,6 +23,7 @@
 				<li class="hedaer-menu-item"><a href="#" class="header-menu-link">Горячее</a></li>
 				<li class="hedaer-menu-item"><a href="#" class="header-menu-link">Подписки</a></li>
 			</ul>
+
 		</nav>
 		<!-- /.header-nav -->
 		<div class="input-group search">
@@ -32,6 +33,11 @@
 			</button>
 		</div>
 		<!-- /.unput-group -->
+		<a href="#" class="menu-toggle" id = "menu-toggle">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
 	</div>
 	<!-- /.header-wrapper -->
 </header>
@@ -138,7 +144,7 @@
 	</section>
 
 	</main>
-	<aside class = "sidebar">
+	<aside class = "sidebar ">
 		<div class="user">
 			<a href = "#" class="user-info">
 				<img width = "40" height="40" src="/img/avatar.jpg" alt="photo:user" class="user-avatar">
@@ -176,8 +182,13 @@
 					<a href="#" class="sidebar-menu-link">Игнор-лист</a>
 				</li>
 			</ul>
+			<a href="#" class="menu-toggle" id = "menu-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
 		</nav>
-		<a href="#" class="button button-new-post">
+		<a href="new-post.html" class="button button-new-post">
 			<svg  class="icon icon-fire">
   			<use xlink:href="img/icons.svg#fire"></use>
 			</svg>
@@ -203,5 +214,6 @@
 	<aside class="sidebar"></aside>
 		<!-- /.sidebar-->
 </div>
+<script src="js/main.js"></script>
 </body>
 </html>
